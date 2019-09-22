@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Crono">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <TextView
+            android:id="@+id/tv_crono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="68dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:text="Vinicius" />
+        <Chronometer
+            android:id="@+id/cronus"
+            android:layout_gravity="center"
+            android:textSize="68dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="25dp">
+
+        <Button
+            android:id="@+id/btn_iniciar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Iniciar"
+            android:onClick="choice"/>
+
+        <Button
+            android:id="@+id/btn_cancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancelar"
+            android:onClick="cancelCrono"/>
+
+    </LinearLayout>
+</LinearLayout>

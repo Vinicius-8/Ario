@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".CreateWifi"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_create_wifi">
+
+    <TextView
+        android:id="@+id/x_tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="11pt"
+        android:layout_marginLeft="08dp"
+        android:text="Hora de ativação:" />
+
+    <EditText
+        android:id="@+id/edt_hora_wifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28pt"
+        android:layout_marginLeft="05dp"
+        android:cursorVisible="false"
+        android:inputType="none"
+        android:text="hora" />
+    <TextView
+        android:id="@+id/x_tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="11pt"
+        android:layout_marginLeft="08dp"
+        android:text="Hora de desativação:" />
+
+    <EditText
+        android:id="@+id/edt_hora_wifi_desat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28pt"
+        android:layout_marginLeft="05dp"
+        android:cursorVisible="false"
+        android:inputType="none"
+        android:text="hora" />
+</LinearLayout>

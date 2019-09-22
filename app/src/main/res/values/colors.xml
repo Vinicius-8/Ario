@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="color_verd_pers">#378037</color>
+    <color name="color_verd_comp_pers">#a1a1a1</color>
+    <color name="color_wave_rox">#b967ff</color>
+    <color name="color_wave_amar">#fffb96</color>
+    <color name="color_wave_verd">#05ffa1</color>
+    <color name="color_cinza">#E2E6E1</color>
+    <color name="color_cinza_somb">#BDBFBB</color>
+</resources>

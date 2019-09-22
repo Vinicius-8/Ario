@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AlarmeAtivado"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_alarme_ativado">
+
+    <TextView
+
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ALARME"
+        android:layout_margin="30dp"
+        android:textSize="20pt"/>
+    <TextView
+        android:id="@+id/tv_alarmAtivado"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40pt"
+        android:layout_margin="30dp"
+        android:text="00:00"/>
+    <Button
+        android:id="@+id/btn_ativadoAlarm"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17pt"
+        android:layout_margin="30dp"
+        android:paddingHorizontal="30dp"
+        style="@style/AppTheme"
+        android:text="PARAR"/>
+</LinearLayout>

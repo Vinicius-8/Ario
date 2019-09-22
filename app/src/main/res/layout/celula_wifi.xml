@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="100dp"
+
+    >
+    <TextView
+        android:id="@+id/tv_codigo_celula"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:visibility="gone"
+        />
+    <FrameLayout
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:textAlignment="center">
+        <TextView
+            android:id="@+id/tv_hora_celula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="09:10"
+            android:layout_gravity="center"
+            android:textSize="19pt"
+            />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="140dp"
+        android:layout_height="99dp"
+        android:layout_alignParentRight="true"
+        >
+        <Switch
+            android:id="@+id/switch_celula"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             />
+
+    </FrameLayout>
+</RelativeLayout>

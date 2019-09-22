@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Ario</string>
+    <string name="title_activity_alarme">Alarme</string>
+    <string name="title_activity_wifi">Wifi</string>
+    <string name="title_activity_create_alarm">Criar Alarme</string>
+    <string-array name="toques">
+        <item>Toque 1</item>
+        <item>Toque 2</item>
+    </string-array>
+    <string name="title_activity_create_wifi">CreateWifi</string>
+    <string name="title_activity_timer">Timer</string>
+    <string name="time"></string>
+    <string name="time_set">Ok</string>
+    <string name="cancel">Cancelar</string>
+    <string name="title_activity_alarme_ativado">AlarmeAtivado</string>
+
+</resources>
